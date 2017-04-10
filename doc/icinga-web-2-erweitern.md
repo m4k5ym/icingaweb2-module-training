@@ -766,13 +766,13 @@ Unser Controller kann die Daten jetzt ganz bequem über unsere kleine Library ab
 <?php
 
 // ...
-use Icinga\Module\Training\File;
+use Icinga\Module\Training\Directory;
 
 class FileController extends Controller
 {
     public function listAction()
     {
-        $this->view->files = File::list($this->Module()->getBaseDir());
+        $this->view->files = Directory::listFiles($this->Module()->getBaseDir());
     }
 }
 ```
