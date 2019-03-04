@@ -275,7 +275,7 @@ class HelloCommand extends Command
 
 Wir erstellen ein CLI Command mit einer Action, welche folgendermaßen bedient wird und nachstehenden Output generiert:
 
-    icingacli training say hello
+    icingacli training hello
 
 
 ## Bash Autocompletion
