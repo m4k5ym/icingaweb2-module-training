@@ -328,7 +328,7 @@ Das Help-Kommando kann zu Beginn stehen oder an jeder beliebigen Stelle als Para
 
 ## Aufgabe 2
 
-Erstelle und teste Dokumentation für eine `something` Aktion für den `say` Befehl im `training` Modul!
+Erstelle und teste Dokumentation für eine `something` Aktion für den `hello` Befehl im `training` Modul!
 
 
 ## Kommandozeilenparameter
